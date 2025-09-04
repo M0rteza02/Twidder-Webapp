@@ -50,16 +50,16 @@ It enables users to **sign up, log in, manage accounts, browse other users, and 
 ---
 
 ## 📂 Project Structure  
-├── server.py # Flask server & API routes
-├── database_helper.py # Database operations
-├── schema.sql # Database schema
-├── database.db # SQLite database (created after init)
-├── static/
-│ ├── client.html # Main frontend page
-│ ├── client.css # Styling
-│ ├── client.js # Client-side logic
-│ └── wimage.png # Logo/branding image
-└── README.md
+    ├── server.py # Flask server & API routes
+    ├── database_helper.py # Database operations
+    ├── schema.sql # Database schema
+    ├── database.db # SQLite database (created after init)
+    ├── static/
+    │ ├── client.html # Main frontend page
+    │ ├── client.css # Styling
+    │ ├── client.js # Client-side logic
+    │ └── wimage.png # Logo/branding image
+    └── README.md
 
 ## ⚙️ Setup & Installation  
 
