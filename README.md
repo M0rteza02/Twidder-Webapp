@@ -69,16 +69,21 @@ It enables users to **sign up, log in, manage accounts, browse other users, and 
    cd twidder-webapp
 
 2. **Set up a virtual environment**
+    ```bash
     python -m venv venv
     source venv/bin/activate   # On Linux/Mac
     venv\Scripts\activate      # On Windows
 3. **Install dependencies**
+    ```bash
     pip install flask flask-sock flask-bcrypt
 4. **Install dependencies**
+    ```bash
     pip install flask flask-sock flask-bcrypt
 5. **Initialize the database**
+    ```bash
     sqlite3 database.db < schema.sql
 6. **Run the server**
+    ```bash
     python server.py
 7. **Open app**
     Visit: http://127.0.0.1:8000
